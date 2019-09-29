@@ -13,7 +13,7 @@ function avarage(data) {
 const Chart = props => {
   return (
     <div>
-      <Sparklines svgWidth={120} svgHeigh={180} data={props.data}>
+      <Sparklines width={120} heigh={180} data={props.data}>
         <SparklinesLine color={props.color} />
         <SparklinesReferenceLine type="avg" />
       </Sparklines>
